@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Now | Crown of Caribbean</title>
+  <meta name="description" content="Reserve your luxury villa in St. Croix, US Virgin Islands. Select your villa, dates, and submit your booking inquiry.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="nav scrolled">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><span class="c">C</span><span class="text">Crown of Caribbean</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="excursions.html">Excursions & Experiences</a></li>
+        <li><a href="weddings.html">Weddings</a></li>
+        <li><a href="book.html" class="active">Book Now</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </header>
+  <div class="mobile-overlay"></div>
+  <div class="mobile-menu">
+    <a href="index.html" class="nav-logo" style="display:block;margin-bottom:2rem;"><span class="c">C</span><span class="text">Crown of Caribbean</span></a>
+    <a href="index.html">Home</a><a href="excursions.html">Excursions & Experiences</a><a href="weddings.html">Weddings</a><a href="book.html" class="active">Book Now</a><a href="contact.html">Contact Us</a>
+  </div>
+
+  <!-- Booking Page -->
+  <section class="section" style="padding-top:7rem;min-height:100vh;">
+    <div class="container" style="max-width:1000px;">
+      <div class="section-heading reveal">
+        <span class="subtitle">Reserve Your Stay</span>
+        <h2>Book Now</h2>
+      </div>
+      <div class="booking-layout">
+        <!-- Villa Selection -->
+        <div class="reveal">
+          <h3 style="font-size:1.25rem;font-weight:600;margin-bottom:1.5rem;">Select Your Villa</h3>
+          <div class="villa-selector">
+            <button class="villa-option">
+              <img src="images/property1.jpg" alt="Villa Panoramic Ocean Views">
+              <div class="villa-option-info"><h4>Villa Panoramic Ocean Views</h4><p>4 BR · 4 BA · Sleeps 8</p></div>
+            </button>
+            <button class="villa-option">
+              <img src="images/property2.jpg" alt="Oceanview Getaway 2BR/2BA">
+              <div class="villa-option-info"><h4>Oceanview Getaway 2BR/2BA</h4><p>2 BR · 2 BA · Sleeps 4</p></div>
+            </button>
+            <button class="villa-option">
+              <img src="images/property3.jpg" alt="Island Escape Full Villa">
+              <div class="villa-option-info"><h4>Island Escape Full Villa</h4><p>3 BR · 3 BA · Sleeps 10</p></div>
+            </button>
+            <button class="villa-option">
+              <img src="images/property4.jpg" alt="Island Escape Ground Floor">
+              <div class="villa-option-info"><h4>Island Escape Ground Floor</h4><p>3 BR · 3 BA · Sleeps 8</p></div>
+            </button>
+          </div>
+        </div>
+
+        <!-- Booking Form -->
+        <div class="reveal">
+          <h3 style="font-size:1.25rem;font-weight:600;margin-bottom:1.5rem;">Your Details</h3>
+          <form>
+            <div class="form-row">
+              <div class="form-group"><label>First Name</label><input type="text" placeholder="John" required></div>
+              <div class="form-group"><label>Last Name</label><input type="text" placeholder="Doe" required></div>
+            </div>
+            <div class="form-group"><label>Email</label><input type="email" placeholder="john@example.com" required></div>
+            <div class="form-group"><label>Phone</label><input type="tel" placeholder="(555) 123-4567"></div>
+            <div class="form-row">
+              <div class="form-group"><label>Check-in</label><input type="date" required></div>
+              <div class="form-group"><label>Check-out</label><input type="date" required></div>
+            </div>
+            <div class="form-group">
+              <label>Guests</label>
+              <select>
+                <option>1 Guest</option><option selected>2 Guests</option><option>3 Guests</option><option>4 Guests</option><option>5 Guests</option><option>6 Guests</option><option>7 Guests</option><option>8 Guests</option><option>9 Guests</option><option>10 Guests</option>
+              </select>
+            </div>
+            <div class="form-group"><label>Special Requests</label><textarea placeholder="Any special requirements or questions..." rows="4"></textarea></div>
+            <button type="submit" class="btn btn-primary btn-block btn-lg">Submit Booking Inquiry</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div><div class="footer-logo"><span class="c">C</span><span class="text">Crown of Caribbean</span></div><p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin-top:1rem;">Four exclusive oceanfront villas in Christiansted, St. Croix, US Virgin Islands.</p></div>
+        <div><h4>Quick Links</h4><div class="footer-links"><a href="index.html">Home</a><a href="excursions.html">Excursions</a><a href="weddings.html">Weddings</a><a href="book.html">Book Now</a><a href="contact.html">Contact Us</a></div></div>
+        <div><h4>Contact</h4><div class="footer-contact"><div class="item"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span>(340) 555-0123</span></div><div class="item"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><span>info@crownofcaribbean.com</span></div><div class="item"><svg viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg><span>Christiansted, St. Croix, USVI</span></div></div></div>
+        <div><h4>Office Hours</h4><div class="footer-hours"><p>Monday – Friday: 9am – 6pm</p><p>Saturday: 10am – 4pm</p><p>Sunday: By appointment</p></div></div>
+      </div>
+      <div class="footer-bottom"><p>&copy; 2026 Crown of Caribbean. All rights reserved.</p></div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
